@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fjalla+One&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jolly+Lodger&family=Lilita+One&family=Luckiest+Guy&family=Major+Mono+Display&family=Nothing+You+Could+Do&family=Oswald:wght@200..700&family=Pathway+Gothic+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Spicy+Rice&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon (1).ico">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Spicy+Rice&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Roboto+Slab:wght@100..900&family=Spicy+Rice&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Pacifico&family=Racing+Sans+One&family=Roboto+Slab:wght@100..900&family=Spicy+Rice&display=swap" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fjalla+One&family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jolly+Lodger&family=Lilita+One&family=Luckiest+Guy&family=Major+Mono+Display&family=Nothing+You+Could+Do&family=Oswald:wght@200..700&family=Pathway+Gothic+One&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Strike&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rancho&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Shadows+Into+Light&family=Smooch+Sans:wght@100..900&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- font -->
+     <link rel="stylesheet" href="../css/Style.Css">
+     <link rel="icon" href="../media/favicon (1).ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+        .carousel-item{
+            height: 40rem;
+            background: #777;
+            color: white;
+            position: relative;
+            background-size: cover;
+
+        }
+        .cad{
+            height: 400px;
+/*          background-color: whitesmoke;*/
+/*          border: 1px solid black;*/
+}
+
+.fortex{
+    margin-left: 50px;
+    margin-top: -10px;
+    width: 500px;
+    height: 230px;
+/*          background-color: white;*/
+}
+.fortex p{
+    font-size: 20px;
+    font-family: "Cantarell", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.fortit p{
+    font-family: "Anton SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    font-size: 40px;
+    margin-left: 50px;
+}
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #282936;
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #282936;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: #fff;
+}
+.forbot{
+    margin-top: 40px;
+    margin-left: 440px;
+}
+.forpic{
+    background-image: url();
+    background-size: cover;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 450px;
+    height: 300px;
+    background-color: whitesmoke;
+}
+.fort{
+    margin-top: 240px;
+    margin-left: 220px;
+    width: 1000px;
+    height: 200px;
+/*    background-color:whitesmoke;*/
+}
+.fort p{
+    font-size:6rem ;
+    color: white;
+    font-family: "Anton", serif;
+
+}
+
+</style>
+<link rel="stylesheet" type="text/css" href="../css/Style.Css">
+<title></title>
+</head>
+<body style="overflow-x: hidden;">
+    <nav>
+		<div class="logo">
+			<img src="../media/icoon.png">
+			<a href="../index.html">Travel Myanmar</a>
+		</div>
+		
+		<div class="menu">
+
+			<li><a href="../index.html">Home</a></li>
+			<ul>
+				<li><a href="" class="mainItem">Place</a>
+					<ul class="submenu">
+						<li><a href="kachin.html"><button>Kachin</button></a></li>
+						<li><a href="kayah.html"><button>Kayah</button></a></li>
+						<li><a href="kayin.html"><button>Kayin</button></a></li>
+						<li><a href="chin.html"><button>Chin</button></a></li>
+						<li><a href="mon.html"><button>Mon</button></a></li>
+						<li><a href="rakhine.html"><button>Rakhine</button></a></li>
+						<li><a href="shan.html"><button>Shan</button> </a></li>
+					</ul>
+				</li>
+			</ul>
+
+			<ul>
+				<li><a href="" class="mainItem">Category</a>
+					<ul class="submenu">
+						<li><a href="Burmese Traditional Food.html"><button>Traditional Food</button></a></li>
+						<li><a href="Burmuse Festival.html"><button>Festival</button></a></li>
+						<li><a href="Culture.html"><button>Culture</button></a></li>	
+						<li><a href="Transporation.html"><button>Transporation</button></a></li>
+					</ul>
+				</li>
+			</ul>
+			<li><a href="aboutus.html">About Us</a></li>
+			<li><a href="Register (2).html">Register</a></li>
+		</div>
+	</nav>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-5 cad">
+                <div class="forpic" style="background-image: url(https://i.pinimg.com/736x/e7/75/af/e775afebea718e4f74cc40ce2b271bed.jpg);">
+                    
+                </div>
+            </div>
+            <div class="col-7 cad">
+                <div class="fortit">
+                    <p>Mohinga</p>
+                </div>
+                <div class="fortex">
+                    <p>
+                       Mohinga is readily available in most parts of the country, sold by street hawkers and roadside stalls in larger cities. Mohinga is traditionally eaten for breakfast, but today is eaten at any time of day. Egg, onions or herbs can be added into the dish.
+                    </p>
+                </div>
+                <div class="forbot">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-7 cad">
+                <div class="fortit">
+                    <p>Lak Hpak</p>
+                </div>
+                <div class="fortex">
+                    <p>
+                       lak hpak, pronounced is Burmese for fermented or pickled tea. Myanmar is one of the few countries where tea is consumed both as a drink and as an eaten delicacy, in the form of pickled tea, which is unique to this region. Laphet is regarded as a national delicacy that plays a significant role in Burmese society, and remains a traditional Burmese.
+                    </p>
+                </div>
+                <div class="forbot">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button>
+                </div>
+            </div>
+            <div class="col-5 cad">
+               <div class="forpic" style="background-image: url(https://yangondaytours.com/wp-content/uploads/2017/02/Laphet-Thoke-Best-Burmese-Food.jpg);">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 100px;">
+        <div class="row">
+            <div class="col-5 cad">
+                <div class="forpic" style="background-image: url(https://i.pinimg.com/736x/39/0b/cf/390bcf320e43eaa3f4e35779906b5110.jpg);">
+                    
+                </div>
+            </div>
+            <div class="col-7 cad">
+                <div class="fortit">
+                    <p>Mont Lone Yay Baw</p>
+                </div>
+                <div class="fortex">
+                    <p>
+                        The dessert plays an important role in Burmese history as it is a traditional snack served during the Thingyan festival. It is usually made in a group and served to the public as a good deed during the new year. Mont Lone Yay Paw is a savory rice ball made from rice flour stuffed with sweet palm jaggery inside, which creates an excellent mix of textures and flavors.
+                    </p>
+                </div>
+                <div class="forbot">
+                    <button class="learn-more">
+                        <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                        </span>
+                        <span class="button-text">Learn More</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="intro" style="margin-top:60px;margin-left: 280px;">
+        <video width="700" controls>
+            <source src="../media/foodvd.webm" type="video/mp4">
+                <source src="../media/foodvd.ogg" type="video/ogg">
+                    Your browser does not support HTML video.
+                </video>
+            </div>
+<footer>
+				<div class="footer-container mt-5">
+					<div class="footer-about">
+						<h2>About Myanmar Travel</h2>
+						<p>Explore the beauty and culture of Myanmar with our comprehensive travel guides, tips, and resources.Thank For Watching My Website.</p>
+						<div class="emoji">
+							<img src="../media/thank-you.png" alt="smile" width="40px" height="auto">
+						</div>
+					</div>
+					<div class="footer-contact">
+						<h2>Quicklinks</h2>
+						<p>Practical Information</p>
+						<p>About Us</p>
+						<p>Contact Us</p>
+						<p>Terms & Conditions</p>
+						<p>Privacy Policy</p>
+					</div>
+					<div class="footer-contact">
+						<h2>Contact Us</h2>
+						<p>Email: summitmyanmaritmdy@gmail.com</p>
+						<p>Phone: +95 2020945</p>
+						<div class="foricon">
+							<div class="row">
+							<div class="emoji">
+							<img src="../media/telegram.png" alt="telegram" width="30px" height="auto">
+						</div>
+						<div class="emoji">
+							<img src="../media/communication.png" alt="facebook" width="30px" height="auto">
+						</div>
+						<div class="emoji">
+							<img src="../media/instagram.png" alt="tiktok" width="30px" height="auto">
+						</div>
+						<div class="emoji">
+							<img src="../media/you.png" alt="youtube" width="30px" height="auto">
+						</div>
+						</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="footer-bottom">
+					<p>&copy; 2025 Myanmar Travel. All rights reserved.</p>
+				</div>
+			</footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        </body>
+        </html>
